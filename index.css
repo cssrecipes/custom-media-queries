@@ -1,0 +1,11 @@
+@custom-media --viewport-max-s (max-width: 30em);
+@custom-media --viewport-min-s (min-width: 30.0625em);
+
+@custom-media --viewport-max-m (max-width: 50em);
+@custom-media --viewport-min-m (min-width: 50.0625em);
+
+@custom-media --viewport-max-l (max-width: 65em);
+@custom-media --viewport-min-l (min-width: 65.0625em);
+
+@custom-media --viewport-max-xl (max-width: 80em);
+@custom-media --viewport-min-xl (min-width: 80.0625em);
