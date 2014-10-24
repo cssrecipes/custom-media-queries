@@ -1,0 +1,32 @@
+/*@import "cssrecipes-test";*/
+@import "../index.css";
+
+.viewport {display: none}
+
+@media (--viewport-max-s) {
+	.viewport-max-s { display: block}
+}
+@media (--viewport-min-s) {
+	.viewport-min-s { display: block }
+}
+
+@media (--viewport-max-m) {
+	.viewport-max-m { display: block }
+}
+@media (--viewport-min-m) {
+	.viewport-min-m { display: block }
+}
+
+@media (--viewport-max-l) {
+	.viewport-max-l { display: block }
+}
+@media (--viewport-min-l) {
+	.viewport-min-l { display: block }
+}
+
+@media (--viewport-max-xl) {
+	.viewport-max-xl { display: block }
+}
+@media (--viewport-min-xl) {
+	.viewport-min-xl { display: block }
+}
