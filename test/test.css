@@ -1,32 +1,32 @@
 /*@import "cssrecipes-test";*/
 @import "../index.css";
 
-.viewport {display: none}
+.cssr-customMq {display: none}
 
-@media (--viewport-max-s) {
-	.viewport-max-s { display: block}
+@media (--cssr-maxS) {
+	.cssr-maxS { display: block}
 }
-@media (--viewport-min-s) {
-	.viewport-min-s { display: block }
-}
-
-@media (--viewport-max-m) {
-	.viewport-max-m { display: block }
-}
-@media (--viewport-min-m) {
-	.viewport-min-m { display: block }
+@media (--cssr-minS) {
+	.cssr-minS { display: block }
 }
 
-@media (--viewport-max-l) {
-	.viewport-max-l { display: block }
+@media (--cssr-maxM) {
+	.cssr-maxM { display: block }
 }
-@media (--viewport-min-l) {
-	.viewport-min-l { display: block }
+@media (--cssr-minM) {
+	.cssr-minM { display: block }
 }
 
-@media (--viewport-max-xl) {
-	.viewport-max-xl { display: block }
+@media (--cssr-maxL) {
+	.cssr-maxL { display: block }
 }
-@media (--viewport-min-xl) {
-	.viewport-min-xl { display: block }
+@media (--cssr-minL) {
+	.cssr-minL { display: block }
+}
+
+@media (--cssr-maxXL) {
+	.cssr-maxXL { display: block }
+}
+@media (--cssr-minXL) {
+	.cssr-minXL { display: block }
 }

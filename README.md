@@ -4,36 +4,41 @@
 
 ## Install
 
-	$ npm install cssrecipes-custom-media-queries
+```sh
+$ npm install cssrecipes-custom-media-queries
+```
 
 ## Usage
 
 ```css
-@media (--viewport-max-s) {
-	/* rules here will be active when viewport will be <= "s" size */
+/* for desktop first approch */
+@media (--cssr-maxS) {
+  /* rules here will be active when viewport will be <= "s" size */
 }
-@media (--viewport-min-s) {
-	/* rules here will be active when viewport will be > "s" size */
+
+/* for mobile first approch */
+@media (--cssr-minS) {
+  /* rules here will be active when viewport will be > "s" size */
 }
 ```
 
 ### Available custom media queries
 
-#### `--viewport-max-s` <= 30em
+#### `--cssr-maxS` <= 30em
 
-#### `--viewport-min-s` > 30em
+#### `--cssr-minS` > 30em
 
-#### `--viewport-max-m` <= 50em
+#### `--cssr-maxM` <= 50em
 
-#### `--viewport-min-m` > 50em
+#### `--cssr-minM` > 50em
 
-#### `--viewport-max-l` <= 65em
+#### `--cssr-maxL` <= 65em
 
-#### `--viewport-min-l` > 65em
+#### `--cssr-minL` > 65em
 
-#### `--viewport-max-xl` <= 80em
+#### `--cssr-maxXL` <= 80em
 
-#### `--viewport-min-xl` > 80em
+#### `--cssr-minXL` > 80em
 
 ---
 
@@ -56,10 +61,12 @@ Basic visual tests are in `test/index.html`.
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-    $ git clone https://github.com/cssrecipes/custom-media-queries.git
-    $ git checkout -b patch-1
-    $ npm install
-    $ npm test
+```sh
+$ git clone https://github.com/cssrecipes/custom-media-queries.git
+$ git checkout -b patch-1
+$ npm install
+$ npm test
+```
 
 ## [Changelog](CHANGELOG.md)
 
