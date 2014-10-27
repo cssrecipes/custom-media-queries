@@ -44,18 +44,19 @@ $ npm install cssrecipes-custom-media-queries
 
 ## Testing
 
-_Requires [nodejs](http://nodejs.org)_
-
 To generate a build:
 
-	npm run build
+```sh
+$ npm run build
+```
 
 To generate the testing build.
 
-	$ npm run build-test
+```sh
+$ npm run build-test
+```
 
 Basic visual tests are in `test/index.html`.
-
 
 ## Contributing
 
