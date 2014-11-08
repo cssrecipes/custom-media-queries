@@ -1,11 +1,11 @@
-@custom-media --cssr-maxS (max-width: 30em);
-@custom-media --cssr-minS (min-width: 30.01em);
+@custom-media --r-maxS (max-width: 30em);
+@custom-media --r-minS (min-width: 30.01em);
 
-@custom-media --cssr-maxM (max-width: 50em);
-@custom-media --cssr-minM (min-width: 50.01em);
+@custom-media --r-maxM (max-width: 50em);
+@custom-media --r-minM (min-width: 50.01em);
 
-@custom-media --cssr-maxL (max-width: 65em);
-@custom-media --cssr-minL (min-width: 65.01em);
+@custom-media --r-maxL (max-width: 65em);
+@custom-media --r-minL (min-width: 65.01em);
 
-@custom-media --cssr-maxXL (max-width: 80em);
-@custom-media --cssr-minXL (min-width: 80.01em);
+@custom-media --r-maxXL (max-width: 80em);
+@custom-media --r-minXL (min-width: 80.01em);

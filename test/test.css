@@ -1,32 +1,32 @@
 /*@import "cssrecipes-test";*/
 @import "../index.css";
 
-.cssr-customMq {display: none}
+.r-customMq {display: none}
 
-@media (--cssr-maxS) {
-	.cssr-maxS { display: block}
+@media (--r-maxS) {
+	.r-maxS { display: block}
 }
-@media (--cssr-minS) {
-	.cssr-minS { display: block }
-}
-
-@media (--cssr-maxM) {
-	.cssr-maxM { display: block }
-}
-@media (--cssr-minM) {
-	.cssr-minM { display: block }
+@media (--r-minS) {
+	.r-minS { display: block }
 }
 
-@media (--cssr-maxL) {
-	.cssr-maxL { display: block }
+@media (--r-maxM) {
+	.r-maxM { display: block }
 }
-@media (--cssr-minL) {
-	.cssr-minL { display: block }
+@media (--r-minM) {
+	.r-minM { display: block }
 }
 
-@media (--cssr-maxXL) {
-	.cssr-maxXL { display: block }
+@media (--r-maxL) {
+	.r-maxL { display: block }
 }
-@media (--cssr-minXL) {
-	.cssr-minXL { display: block }
+@media (--r-minL) {
+	.r-minL { display: block }
+}
+
+@media (--r-maxXL) {
+	.r-maxXL { display: block }
+}
+@media (--r-minXL) {
+	.r-minXL { display: block }
 }

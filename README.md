@@ -12,33 +12,33 @@ $ npm install cssrecipes-custom-media-queries
 
 ```css
 /* for desktop first approch */
-@media (--cssr-maxS) {
+@media (--r-maxS) {
   /* rules here will be active when viewport will be <= "s" size */
 }
 
 /* for mobile first approch */
-@media (--cssr-minS) {
+@media (--r-minS) {
   /* rules here will be active when viewport will be > "s" size */
 }
 ```
 
 ### Available custom media queries
 
-#### `--cssr-maxS` <= 30em
+#### `--r-maxS` <= 30em
 
-#### `--cssr-minS` > 30em
+#### `--r-minS` > 30em
 
-#### `--cssr-maxM` <= 50em
+#### `--r-maxM` <= 50em
 
-#### `--cssr-minM` > 50em
+#### `--r-minM` > 50em
 
-#### `--cssr-maxL` <= 65em
+#### `--r-maxL` <= 65em
 
-#### `--cssr-minL` > 65em
+#### `--r-minL` > 65em
 
-#### `--cssr-maxXL` <= 80em
+#### `--r-maxXL` <= 80em
 
-#### `--cssr-minXL` > 80em
+#### `--r-minXL` > 80em
 
 ---
 
