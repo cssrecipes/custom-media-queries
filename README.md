@@ -11,6 +11,8 @@ $ npm install cssrecipes-custom-media-queries
 ## Usage
 
 ```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+
 /* for desktop first approch */
 @media (--r-maxS) {
   /* rules here will be active when viewport will be <= "s" size */
