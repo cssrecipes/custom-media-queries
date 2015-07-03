@@ -42,8 +42,8 @@ $ npm install cssrecipes-custom-media-queries
 
 #### `--r-minXL` > 80em
 
-
 **Note: your can obviously override the default values of this custom media. Just define the new values after the import.** 
+
 ---
 
 ## Testing
